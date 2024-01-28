@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    background: #181818;
+    padding: 30px 0;
+}
+.conteiner{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 152px;
+}
+.tittle {
+    background: linear-gradient(0deg, #000 18.78%, rgba(0, 0, 0, 0.00) 98.53%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
