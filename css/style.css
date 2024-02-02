@@ -17,13 +17,13 @@ header{
     margin-left: 152px;
     width: 128px;
     height: 31px;
-
 }
 header nav ul{
     display: flex;
 }
 header nav li{
-    margin-left: 20px;
+    margin-left: 32px;
+
 }
 header nav li:first-of-type{
     margin-right: 56px;
@@ -34,11 +34,36 @@ header nav li:first-of-type a{
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 153.846% */
+    line-height: 20px;
     padding: 10px 20px;
+    text-decoration: none;
+}
+header nav li:last-of-type a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #000000;
+    padding-top: 9px;
+    padding-bottom: 13px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    text-decoration: none;
 }
 header nav li a{
     color: white;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+
 }
 .tittle {
     background-image: url("../images/IMAGE.jpg");
@@ -84,4 +109,60 @@ header nav li a{
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+}
+.Past_clients{
+    padding-top: 113px;
+    padding-bottom: 100px;
+    padding-left: 182px;
+    padding-right: 182px;
+    background-color: black;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+}
+.Past{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.subtitle{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;}
+
+.combined{
+    width: 128px;
+    height: 30px;
+    margin-right: 109px;
+}
+.pic2{
+    width: 128px;
+    height: 78px;
+    margin-right: 109px;
+}
+.pic3{
+    margin-right: 109px;
+    width: 128px;
+    height: 20px;
+}
+.pic4{
+    margin-right: 109px;
+    width: 128px;
+    height: 36px;
+}
+.pic5{
+    width: 128px;
+    height: 32px;
 }
