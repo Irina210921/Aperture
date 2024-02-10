@@ -1,0 +1,8 @@
+@media screen and (max-width: 428px) {
+    .logo {
+        margin-left: 20px;
+    }
+    .mini_icon li{
+        margin-right: 0;
+    }
+}

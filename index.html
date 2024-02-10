@@ -11,34 +11,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/mobile.css">
 
 
 </head>
 <body>
 <header>
-<div class="conteiner">
-<a href="#">
-    <img src="images/logo.svg" class="logo" alt="logo"/>
-</a>
-<nav>
-    <ul>
-        <li>
-            <a href="#">Business areas</a>
-        </li>
-        <li>
-            <a href="#">Featured images</a>
-        </li>
-        <li>
-            <a href="#">Gear cage</a>
-        </li>
-        <li> <a href="#">Contact</a>
-        </li>
-        <li><a href="#">Get template</a>
-        </li>
-    </ul>
-</nav>
-</div>
+    <div class="conteiner">
+        <a href="#">
+            <img src="images/logo.svg" class="logo" alt="logo"/>
+        </a>
+    <!--    Made by Erik Terwan    -->
+    <!--   24th of November 2015   -->
+    <!--        MIT License        -->
+    <nav role="navigation">
+        <div id="menuToggle">
+
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+
+            <!--
+            Some spans to act as a hamburger.
+
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+                <a href="#"><li>Business areas</li></a>
+                <a href="#"><li>Featured images</li></a>
+                <a href="#"><li>Gear cage</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>Get template</li></a>
+            </ul>
+        </div>
+    </nav>
+    </div>
+
+
+
+
 </header>
 <main>
     <section class="tittle">
@@ -55,7 +81,7 @@
             </ul>
     </section>
     <section class="Past_clients">
-        <article class="wrapper">
+        <article>
             <h2 class="Past">Past clients</h2>
             <p class="subtitle">Trusted by your favourite companies</p>
         </article>
@@ -70,6 +96,7 @@
             <img src="images/pic4.svg" class="pic4" alt="Industries"/>
             <a href="#"></a>
             <img src="images/pic5.svg" class="pic5" alt="Stockholm"/>
+
         </div>
 
     </section>
