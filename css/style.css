@@ -192,12 +192,16 @@ header nav li a{
 
 .owl-carousel{
     display: flex;
-    justify-content: space-between;
-    padding-left:46px;
-    padding-right: 46px;
+    padding-right: 10px;
+    padding-left:10px;
 
 }
-
+.owl-carousel .owl-stage{
+    width: auto;
+}
+.owl-item{
+    width: 128px;
+}
 .combined{
     width: 128px;
     height: 30px;
@@ -205,10 +209,8 @@ header nav li a{
 .pic2{
     width: 128px;
     height: 78px;
-
 }
 .pic3{
-
     width: 128px;
     height: 20px;
 }
