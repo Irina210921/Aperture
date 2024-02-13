@@ -1,9 +1,35 @@
 @media screen and (max-width: 428px) {
     .logo {
-        margin-left: 20px;
+        justify-content: center;
     }
     .mini_icon li{
         margin-right: 0;
     }
+.conteiner{
+    display: block;
+}
+    header nav ul{
+    display: inline-block;
+     width: 100%;
+    margin-bottom: 32px;
 
+}
+    header nav li:last-of-type a{
+        background:none;
+        color: white;
+        padding-left: 0;
+    }
+    header nav li a{
+        margin-left: 0;
+
+    }
+    header nav li{
+        margin-left: 0;
+    }
+    header nav li:first-of-type{
+        margin-right: 0px;
+    }
+    header nav li:first-of-type a{
+        padding: 0px 0px;
+    }
 }
