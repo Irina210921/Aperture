@@ -225,3 +225,5 @@ header nav li a{
     width: 128px;
     height: 32px;
 }
+#menuToggle input {
+    display: none;}

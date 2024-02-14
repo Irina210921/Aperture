@@ -8,7 +8,7 @@
  * production code, beware of the browser
  * prefixes.
  */
-@media screen and (max-width: 767px) {
+
     body {
         margin: 0;
         padding: 0;
@@ -18,12 +18,12 @@
         color: #cdcdcd;
         font-family: "Avenir Next", "Avenir", sans-serif;
     }
-}
+
 
     #menuToggle {
         display: block;
         position: relative;
-        top: 50px;
+        top: 34px;
         left: 50px;
 
         z-index: 1;
@@ -132,7 +132,7 @@
     #menu {
         position: absolute;
         width: 250px;
-        margin: -100px 0 0 -50px;
+        margin: -97px 0 0 -50px;
         padding: 20px;
         padding-top: 125px;
 
