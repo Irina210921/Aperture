@@ -8,7 +8,8 @@
     <title>Aperture</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
 
@@ -21,82 +22,42 @@
 </head>
 <body>
 <header>
-
-    <!--    Made by Erik Terwan    -->
-    <!--   24th of November 2015   -->
-    <!--        MIT License        -->
-    <nav role="navigation">
-        <div id="menuToggle">
-            <!--
-            A fake / hidden checkbox is used as click reciever,
-            so you can use the :checked selector on it.
-            -->
-            <input type="checkbox" />
-
-            <!--
-            Some spans to act as a hamburger.
-
-            They are acting like a real hamburger,
-            not that McDonalds stuff.
-            -->
-            <span></span>
-            <span></span>
-            <span></span>
-
-            <!--
-            Too bad the menu has to be inside of the button
-            but hey, it's pure CSS magic.
-            -->
-            <ul id="menu">
-                <a href="#"><li>Business areas</li></a>
-                <a href="#"><li>Featured images</li></a>
-                <a href="#"><li>Gear cage</li></a>
-                <a href="#"><li>Contact</li></a>
-                <a href="#"><li>Get template</li></a>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="conteiner">
-        <a href="#">
-            <img src="images/logo.svg" class="logo" alt="logo"/>
-        </a>
-    </div>
-</header>
-
-
-
-
-
-
-
-
-
-
-
-
+<!--<header class="cd-header">-->
 <!--    <div class="conteiner">-->
-<!--        <a href="#">-->
+<!--        <<a href="#0" class="cd-logo">-->
 <!--            <img src="images/logo.svg" class="logo" alt="logo"/>-->
 <!--        </a>-->
-<!--        <nav>&ndash;&gt;-->
-<!--                    <ul>-->
-<!--                        <li>-->
-<!--                            <a href="#">Business areas</a>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="#">Featured images</a>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <a href="#">Gear cage</a>-->
-<!--                        </li>-->
-<!--                        <li> <a href="#">Contact</a>-->
-<!--                        </li>-->
-<!--                        <li><a href="#">Get template</a>-->
-<!--                        </li>-->
-<!--                    </ul>-->
-<!--                </nav>-->
-<!--                </div>-->
+
+<!--<nav class="cd-3d-nav-container">-->
+<!--    <ul class="cd-3d-nav">-->
+<!--        <li class="cd-selected">-->
+<!--            <a href="#">Business areas</a>-->
+<!--        </li>-->
+
+<!--        <li>-->
+<!--            <a href="#0">Featured images</a>-->
+<!--        </li>-->
+
+<!--        <li>-->
+<!--            <a href="#0">Gear cage</a>-->
+<!--        </li>-->
+
+<!--        <li>-->
+<!--            <a href="#">Contact</a>-->
+<!--        </li>-->
+
+<!--        <li>-->
+<!--            <a href="#">Get template</a>-->
+<!--        </li>-->
+<!--    </ul> &lt;!&ndash; .cd-3d-nav &ndash;&gt;-->
+
+<!--    <span class="cd-marker color-1"></span>-->
+<!--</nav> &lt;!&ndash; .cd-3d-nav-container &ndash;&gt;-->
+<!--        <a href="#0" class="cd-3d-nav-trigger">-->
+<!--            Menu-->
+<!--            <span></span>-->
+<!--        </a>-->
+<!--    </div>-->
 <!--</header>-->
 
 
@@ -106,25 +67,30 @@
 
 
 
-<!--    <nav>-->
-<!--        <ul>-->
-<!--            <li>-->
-<!--                <a href="#">Business areas</a>-->
-<!--            </li>-->
-<!--            <li>-->
-<!--                <a href="#">Featured images</a>-->
-<!--            </li>-->
-<!--            <li>-->
-<!--                <a href="#">Gear cage</a>-->
-<!--            </li>-->
-<!--            <li> <a href="#">Contact</a>-->
-<!--            </li>-->
-<!--            <li><a href="#">Get template</a>-->
-<!--            </li>-->
-<!--        </ul>-->
-<!--    </nav>-->
-<!--    </div>-->
 
+    <div class="conteiner">
+        <a href="#">
+            <img src="images/logo.svg" class="logo" alt="logo"/>
+        </a>
+        <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Business areas</a>
+                        </li>
+                        <li>
+                            <a href="#">Featured images</a>
+                        </li>
+                        <li>
+                            <a href="#">Gear cage</a>
+                        </li>
+                        <li> <a href="#">Contact</a>
+                        </li>
+                        <li><a href="#">Get template</a>
+                        </li>
+                    </ul>
+                </nav>
+                </div>
+</header>
 <main>
     <section class="tittle">
         <article class="main_banner">
@@ -138,6 +104,56 @@
                 <li>100</li>
                 <li>Iceland</li>
             </ul>
+    </section>
+    <section class="What_we_do">
+
+        <h2 class="what_we">What we do.</h2>
+        <h3 class="the_areas">The areas that we're specialized in.</h3>
+            <article class="pictures">
+    <div class="img1">
+        <img src="images/sect3img1.svg" class="Product_Photography" alt="product"/>
+        <span class="pic1span">Product Photography</span>
+        <p class="pic1paragraf">Cras commodo consequat orci, in convallis risus egestas non. <br>
+                Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus <br>quam.</p>
+    </div>
+                <div class="img2">
+            <img src="images/sect3img2.svg" class="Architecture_Photography" alt="architecture"/>
+                    <span class="pic2span">Architecture Photography</span>
+                    <p class="pic2paragraf">Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci<br>
+                        nec egestas pharetra, ligula est semper enim, nec<br>
+                        auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</p>
+                </div>
+                <div class="img3">
+                    <img src="images/sect3img3.svg" class="Drone_Photography" alt="drone"/>
+                    <span class="pic3span">Drone Photographyy</span>
+                    <p class="pic3paragraf">Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique<br>
+                        sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus <br>
+                        egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus <br>
+                        libero ac, cursus quam.</p>
+                </div>
+                <div class="img4">
+                    <img src="images/sect3img4.svg" class="Wildlife_Photography" alt="wildlife"/>
+                    <span class="pic4span">Wildlife Photographyy</span>
+                    <p class="pic4paragraf">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam<br>
+                        scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros<br>
+                        quis consectetur. Morbi neque ex, condimentum dapibus congue et,<br>
+                        vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+                </div>
+            </article>
+
+    </section>
+    <section class="sunset">
+        <article>
+            <h2 class="mount">Sunset at Mount Fuji</h2>
+            <p class="duis_tristique">Duis tristique sed lorem a vestibulum. Cras<br>
+                commodo consequat orci, in convallis <br>
+                risus egestas non.</p>
+        </article>
+
+
+
+
+
     </section>
     <section class="Past_clients">
         <article>
@@ -155,10 +171,15 @@
             <img src="images/pic4.svg" class="pic4" alt="Industries"/></a>
             <a href="#">
             <img src="images/pic5.svg" class="pic5" alt="Stockholm"/></a>
-
         </div>
-
     </section>
+
+
+
+
+
+
+
 
 
 </main>

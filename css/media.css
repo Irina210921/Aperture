@@ -1,9 +1,10 @@
 @media screen and (max-width: 428px) {
         .logo{
-            margin-left: 250px;
+           float: left;
+            margin-left: 0;
         }
 
-    }
+
     .mini_icon li{
         margin-right: 0;
     }
@@ -32,4 +33,4 @@
     header nav li:first-of-type a{
         padding: 0px 0px;
     }
-
+}

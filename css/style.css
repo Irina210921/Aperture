@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -12,6 +13,9 @@ header{
 .conteiner{
     display: flex;
     justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+
 }
 .logo{
     margin-left: 152px;
@@ -116,9 +120,7 @@ header nav li a{
 .Past_clients{
     padding-top: 113px;
     padding-bottom: 100px;
-
     background-color: black;
-
 }
 .Past{
     font-family: Poppins;
@@ -225,5 +227,180 @@ header nav li a{
     width: 128px;
     height: 32px;
 }
-#menuToggle input {
-    display: none;}
+.What_we_do{
+    padding-top: 113px;
+    padding-bottom: 100px;
+    padding-right: 136px;
+    padding-left: 136px;
+    background-color: black;
+    margin: auto;
+}
+.what_we{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.the_areas{
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.pictures{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1168px;
+}
+.img1{
+    position: relative;
+}
+.img2{
+    position: relative;
+}
+.img3{
+    position: relative;
+}
+.img4{
+    position: relative;
+}
+.pic1span{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #FFFFFF;
+     left:  30px;
+    padding-bottom: 20px;
+     bottom: 160px;
+}
+.pic1paragraf{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C0C0C0;
+    left: 30px;
+    bottom: 100px;
+}
+.pic2span{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #FFFFFF;
+    left:  30px;
+   padding-bottom: 20px;
+    bottom: 160px;
+}
+.pic2paragraf{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C0C0C0;
+    left: 30px;
+    bottom: 100px;
+}
+.pic3span{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #FFFFFF;
+    left:  30px;
+    bottom: 160px;
+    padding-bottom: 20px;
+}
+.pic3paragraf{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C0C0C0;
+    left: 30px;
+    bottom: 80px;
+}
+.pic4span{
+     position: absolute;
+     font-family: Poppins;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 20px;
+     letter-spacing: 2px;
+     text-align: left;
+     color: #FFFFFF;
+     left:  30px;
+     bottom: 160px;
+    padding-bottom: 20px;
+ }
+.pic4paragraf{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C0C0C0;
+    left: 30px;
+    bottom: 80px;
+}
+.sunset{
+    background-image: url("../images/sect3sunset.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 62px;
+}
+
+.mount{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.duis_tristique{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #C0C0C0;
+
+
+}
